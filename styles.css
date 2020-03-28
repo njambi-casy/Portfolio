@@ -1,0 +1,92 @@
+h4{
+  font-weight: bold;
+  font-family: Abril Fatface, Arial,
+  padding: 4px;
+}
+
+body{
+  background-image: url('wool.jpg');
+}
+
+h1{
+  font-weight: bold;
+  font-family: Viga, Arial,
+  text-align: center;
+}
+
+button{
+  padding: 5px;
+  margin: 10px;
+}
+
+footer{
+  background-color: #1C1C1BFF;
+  color: white;
+  font-weight: bold;
+  padding: 40px;
+  font-family: Chewy, cursive;
+}
+
+.nav{
+  padding: 20px;
+  background-color: #CE4A7EFF;
+  color: white;
+  font-weight: bold;
+  font-family: Viga, Arial;
+  font-size: 15px;
+  text-align: right;
+
+}
+button:hover{
+  background-color: Grey;
+  }
+
+  /*.avatar{
+    border-radius: 50%;
+    vertical-align: middle;
+    height: 50px;
+    width: 50px;
+    text-align: left;
+  }*/
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.highlight{
+  font-family: Chewy, cursive;
+  font-weight: lighter;
+}
+
+.git{
+  text-align: left;
+}
+
+.copy{
+  padding: 20px;
+  text-align: center;
+}
+
+#Education, #Interests{
+  /*background-color: #89cff0;*/
+  background-color: #1C1C1BFF;
+  padding: 20px;
+  font-size: 20px;
+  margin: 20px;
+  text-overflow: clip;
+  color: white;
+
+}
+
+#Skills,#Community {
+  /*background-color: #F4c2c2;*/
+  background-color: #CE4A7EFF;
+  margin: 20px;
+  font-size: 20px;
+  text-overflow: clip;
+  padding: 20px;
+  color: white;
+
+}
